@@ -1,10 +1,10 @@
 # BAMAZON
 
-##Introduction
+## Introduction
 
 Bamazon is an e-commerce command-line application, run by NodeJS. The application displays the inventory list and price of products available on bamazon and processes customer orders. Bamazon's inventory database is available through a MySQL server.
 
-##Instructions
+## Instructions
 
 1. To initialize the application, begin by entering the following statement into the command line:
 *node bamazonCustomer.js*. 
@@ -18,19 +18,19 @@ Please note that this step assumed that you already have node set up on your dev
 
 Based on the response that you provide, one of three outcomes will occur. 
 
-###Invalid ID
+### Invalid ID
 ![Image of Invalid ID](images/invalid_id.png)
 This is the response that occurs if the product ID entered does not correspond with any of the items on the inventory list. The application informs you that you entered the wrong product ID and exits the application. At this point, you will need to restart the program as described in step 1.
 
-###Insufficient Quantity
+### Insufficient Quantity
 ![Image of Insufficient Quantity](images/insufficient.png)
 This is the response that occurs if bamazon's inventory does not accomodate the quantity of product you want to purchase. The application informs you that there is an insufficient quantity of products and exits the application. At this point, you will need to restart the program as described in step 1.
 
-###Successful Purchase
+### Successful Purchase
 ![Image of Successful Purchase](images/successful.png)
 This is the response that occurs when the application is successfully able to locate the product requested and has enough inventory . The application informs you that your purchase was successful and provides a receipt of the purchase. At this point, if you would like to make another purchase, you will need to restart the program as described in step 1.
 
-##MySQL Database 
+## MySQL Database 
 Bamazon's inventory is stored in a database made accessible through a MySQL server. 
 ![Image of MySQL db](images/mysql1.png)
 When a purchase is made, the database is updated as shown below.
