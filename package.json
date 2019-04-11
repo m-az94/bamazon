@@ -1,0 +1,30 @@
+{
+  "name": "10-bamazon",
+  "version": "1.0.0",
+  "description": "amazon-like cli app",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-az94/bamazon.git"
+  },
+  "keywords": [
+    "git",
+    "amazon",
+    "cli",
+    "app"
+  ],
+  "author": "Maria Azam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-az94/bamazon/issues"
+  },
+  "homepage": "https://github.com/m-az94/bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
