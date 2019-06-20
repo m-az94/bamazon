@@ -4,6 +4,11 @@
 
 Bamazon is an e-commerce command-line application, run by NodeJS. The application displays the inventory list and price of products available on bamazon and processes customer orders. Bamazon's inventory database is available through a MySQL server.
 
+## Technologies Used
+* Javascript
+* NodeJS
+* MySQL database
+
 ## Instructions
 
 1. To initialize the application, begin by entering the following statement into the command line:
